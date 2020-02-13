@@ -1,0 +1,14 @@
+print("Hello Daidary_GitHub" + '\n' + "Welcome, Timur ")
+error_choice = "Error input, Enter y or n again! "
+a = input("Would you like this test? ")
+
+
+while a  not in ("y", "n"):
+
+	if a == "y":
+	   print("well, glad you see")
+	elif a == "n":
+	   print("sorry, will improve your experience in feature")
+	else:
+	   print("\n" + error_choice + "\n")
+	   a = input("Would you like this test?(y\\n): ")
